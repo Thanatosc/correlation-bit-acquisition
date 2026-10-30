@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "unit_tests_run": 10,
+  "corner_proof": {
+    "signed_derivatives": 32,
+    "distinct_polynomials": [
+      [
+        61042,
+        703992,
+        -24576,
+        0
+      ],
+      [
+        70486,
+        952776,
+        -36160,
+        3840
+      ],
+      [
+        625678,
+        630824,
+        94528,
+        -3840
+      ],
+      [
+        1179918,
+        626728,
+        102720,
+        -3840
+      ],
+      [
+        1723670,
+        692680,
+        -3392,
+        3840
+      ],
+      [
+        2296918,
+        940488,
+        -11584,
+        3840
+      ]
+    ],
+    "positivity_domain": "L >= 128, by nonnegative coefficients in L-128",
+    "checked_bit_widths": [
+      12,
+      16,
+      20,
+      28,
+      32,
+      64,
+      128,
+      256
+    ],
+    "certificate_planes": 14
+  },
+  "binary_whole_column": {
+    "status": "ambiguous",
+    "stats": {
+      "rows_completed": 32,
+      "peak_states": 6545,
+      "terminal_states": 6545,
+      "transitions": 209440,
+      "nodes_created": 58904,
+      "columns": 2,
+      "raw_completions": 18446744073709551616
+    }
+  },
+  "cellwise_joint_control": {
+    "status": "certified",
+    "n": 327,
+    "raw_completions": 4294967296,
+    "moment_calls": [
+      {
+        "rows_completed": 327,
+        "peak_states": 33,
+        "terminal_states": 33,
+        "transitions": 10791,
+        "nodes_created": 10295,
+        "columns": 3,
+        "raw_completions": 4294967296
+      }
+    ],
+    "scope": "Cellwise prefix control, not the whole-column access model."
+  },
+  "gap_acquisition": [
+    {
+      "bits": 12,
+      "queries": 14,
+      "H_query_lower_bound": 16,
+      "wire_bytes": 250,
+      "resource_limited_checks": 10,
+      "semantic_competitive_bound": "not_claimed",
+      "input_sha256": "dea252b56a8571b5f5c58bfafe0e9c77dda64af2c1bcb5739f536a516760e20c"
+    },
+    {
+      "bits": 16,
+      "queries": 14,
+      "H_query_lower_bound": 24,
+      "wire_bytes": 250,
+      "resource_limited_checks": 10,
+      "semantic_competitive_bound": "not_claimed",
+      "input_sha256": "ae97b4f9bdeb392c61e02cbe74d8c1ef5a0b28807e3b0b51e1960f581011cfed"
+    },
+    {
+      "bits": 20,
+      "queries": 14,
+      "H_query_lower_bound": 32,
+      "wire_bytes": 250,
+      "resource_limited_checks": 10,
+      "semantic_competitive_bound": "not_claimed",
+      "input_sha256": "b3e107152975de59656c0c1699554896ed0348e9e06654f1c9061e60ae309a64"
+    },
+    {
+      "bits": 28,
+      "queries": 14,
+      "H_query_lower_bound": 48,
+      "wire_bytes": 250,
+      "resource_limited_checks": 10,
+      "semantic_competitive_bound": "not_claimed",
+      "input_sha256": "8693eae65dadb78effc616bb7bd0d136aba753bf2ec26f72507b9d97b596c86b"
+    },
+    {
+      "bits": 32,
+      "queries": 14,
+      "H_query_lower_bound": 56,
+      "wire_bytes": 250,
+      "resource_limited_checks": 10,
+      "semantic_competitive_bound": "not_claimed",
+      "input_sha256": "609d09da44058a000fda2d00d28e32361a1851fe9b4d9463ac5f52f459f1126e"
+    }
+  ],
+  "sources": {
+    "pacd/semantic_moments.py": "248ce7d8f3f2d6e6181a7800451cf91d9cf1f0ae718bfa8500fa5ca630ca4904",
+    "pacd/semantic_acquisition.py": "57fc7d21f572095df45a7a2be7b095e102ad93f3db7f48c925ba8bae0a6c635f",
+    "pacd/positive_correlation_corner.py": "785424452b09674a19f1118d1529b64129ea97fdf302a3c5b29af90a9ea1430b",
+    "pacd/column_monotone.py": "ef5f2629669335c0ee702178ce7b3c63e80be0da5c3039dc13ee422d01e4bccf",
+    "pacd/calibrated_witness.py": "3cd576ac272f8f4df7d3010e22a0b1e9796ce197467acec5d3b835777c148a57",
+    "pacd/intervals.py": "5408a793a74ea680cdb1548bdd9f82a3202b96ec1411182863066befe621389c",
+    "pacd/skeleton.py": "4ffa07903ace0e9053deb54af78bf07ef6b66fe82ee7a8e472dfe025ad10149f",
+    "pacd/codec.py": "4ad38b674df25d2a511ae75b264d0cd90e8df311976a162768f7cde39b5e3272",
+    "pacd/hardness_any_fixed_threshold.py": "957980ea80eab5d003826338ceb222ed8eeddb0d088029c0f798198a6ee948e8",
+    "pacd/hardness_fixed_threshold.py": "c19d05f836786d0fc976fa409bf7053ec6a229343f8f030bb1a4c1b2448f3699",
+    "tests/test_semantic_moments.py": "1376bf9a1bc7078e82b2d54e4233d1857201d1bd55b7ee72aeeaa0f7b0747d6b",
+    "tests/test_semantic_acquisition.py": "acfc2a7892a386577aa7d77793c618ee42842dda54e4f1dab99dc11992cbde31",
+    "scripts/check_semantic_moment_oracle.py": "66461070ab6c020c151abf3195949a0bb6e58026fa756a4946132c85513ec69e"
+  },
+  "scope": "Constructed exact arithmetic and actual codec checks; no ordinary-data speedup or general polynomial-time semantic stopping theorem."
+}

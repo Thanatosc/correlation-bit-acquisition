@@ -1,0 +1,518 @@
+{
+  "status": "passed",
+  "unit_tests_run": 4,
+  "algebra": {
+    "product_slack": "2 e (1-e), nonnegative for 0<=e<=1",
+    "charging_slack": "s*u*v + s*u + s*v + u*v + 2*u",
+    "conditional_error_constant": 108,
+    "sufficient_width_denominator": 216
+  },
+  "rational_intervals": {
+    "certified_atom_checks": 103,
+    "arithmetic": "exact rational intervals at the sufficient eta boundary",
+    "correlation_matrices": 6,
+    "thresholds": [
+      "1/10",
+      "1/2",
+      "9/10"
+    ]
+  },
+  "scaled_acquisition": [
+    {
+      "family": "orthogonal",
+      "bits": 12,
+      "transport": "actual codec",
+      "queries": 21,
+      "depths": [
+        7,
+        7,
+        7
+      ],
+      "edges": [],
+      "beta": "1/100",
+      "K_upper": "1",
+      "ratio_upper": 12,
+      "comparison_denominator": "Q_sem >= d = 3",
+      "wire_bytes": 341,
+      "encoded_sha256": "9ad9352f8ffeac5ced3c431792de71ac0b25523bd448f32f99ac8b82d4345875"
+    },
+    {
+      "family": "orthogonal",
+      "bits": 20,
+      "transport": "actual codec",
+      "queries": 21,
+      "depths": [
+        7,
+        7,
+        7
+      ],
+      "edges": [],
+      "beta": "1/100",
+      "K_upper": "1",
+      "ratio_upper": 20,
+      "comparison_denominator": "Q_sem >= d = 3",
+      "wire_bytes": 341,
+      "encoded_sha256": "8cd28ca9548f4e2cdf6354f8e892feed004947b39ab95ad066572c217b993133"
+    },
+    {
+      "family": "orthogonal",
+      "bits": 32,
+      "transport": "actual codec",
+      "queries": 21,
+      "depths": [
+        7,
+        7,
+        7
+      ],
+      "edges": [],
+      "beta": "1/100",
+      "K_upper": "1",
+      "ratio_upper": 32,
+      "comparison_denominator": "Q_sem >= d = 3",
+      "wire_bytes": 341,
+      "encoded_sha256": "3a26036e69b61a3abb5240073d16c231d0cef4d553d6c06ece0a0241e7a13807"
+    },
+    {
+      "family": "orthogonal",
+      "bits": 64,
+      "transport": "test-only exact prefix transport; no physical codec or byte claim",
+      "queries": 21,
+      "depths": [
+        7,
+        7,
+        7
+      ],
+      "edges": [],
+      "beta": "1/100",
+      "K_upper": "1",
+      "ratio_upper": 38,
+      "comparison_denominator": "Q_sem >= d = 3"
+    },
+    {
+      "family": "orthogonal",
+      "bits": 128,
+      "transport": "test-only exact prefix transport; no physical codec or byte claim",
+      "queries": 21,
+      "depths": [
+        7,
+        7,
+        7
+      ],
+      "edges": [],
+      "beta": "1/100",
+      "K_upper": "1",
+      "ratio_upper": 38,
+      "comparison_denominator": "Q_sem >= d = 3"
+    },
+    {
+      "family": "unused_equality",
+      "bits": 12,
+      "transport": "actual codec",
+      "queries": 26,
+      "depths": [
+        9,
+        9,
+        8
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "beta": "1/100",
+      "K_upper": "17/3",
+      "ratio_upper": 12,
+      "comparison_denominator": "Q_sem >= d = 3",
+      "wire_bytes": 416,
+      "encoded_sha256": "f731f14f0293380d9fc962c22abc571269a2848f92f967a1dc35f37e0b49dedd"
+    },
+    {
+      "family": "unused_equality",
+      "bits": 20,
+      "transport": "actual codec",
+      "queries": 26,
+      "depths": [
+        9,
+        9,
+        8
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "beta": "1/100",
+      "K_upper": "17/3",
+      "ratio_upper": 20,
+      "comparison_denominator": "Q_sem >= d = 3",
+      "wire_bytes": 416,
+      "encoded_sha256": "f2e9727a1437d2a3b97278a3a24c41c38c67aeef708c456731f641e91c00cfb7"
+    },
+    {
+      "family": "unused_equality",
+      "bits": 32,
+      "transport": "actual codec",
+      "queries": 26,
+      "depths": [
+        9,
+        9,
+        8
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "beta": "1/100",
+      "K_upper": "17/3",
+      "ratio_upper": 32,
+      "comparison_denominator": "Q_sem >= d = 3",
+      "wire_bytes": 416,
+      "encoded_sha256": "d57002c0cefc12394e4591e045815abfae90ee5c98625eb092dbaa014caddc72"
+    },
+    {
+      "family": "unused_equality",
+      "bits": 64,
+      "transport": "test-only exact prefix transport; no physical codec or byte claim",
+      "queries": 26,
+      "depths": [
+        9,
+        9,
+        8
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "beta": "1/100",
+      "K_upper": "17/3",
+      "ratio_upper": 45,
+      "comparison_denominator": "Q_sem >= d = 3"
+    },
+    {
+      "family": "unused_equality",
+      "bits": 128,
+      "transport": "test-only exact prefix transport; no physical codec or byte claim",
+      "queries": 26,
+      "depths": [
+        9,
+        9,
+        8
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "beta": "1/100",
+      "K_upper": "17/3",
+      "ratio_upper": 45,
+      "comparison_denominator": "Q_sem >= d = 3"
+    }
+  ],
+  "exact_semantic_comparison": {
+    "universe_matrices": 262144,
+    "depth_vectors": 16,
+    "threshold": "1/2",
+    "n": 3,
+    "d": 2,
+    "B": 3,
+    "cases": [
+      {
+        "column_indices": [
+          390,
+          238
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          29,
+          313
+        ],
+        "Q_sem": 6,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          106,
+          100
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          131,
+          243
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          330,
+          501
+        ],
+        "Q_sem": 6,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          50,
+          129
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          176,
+          334
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          251,
+          166
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          492,
+          42
+        ],
+        "Q_sem": 6,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          153,
+          11
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          142,
+          392
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          95,
+          201
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          121,
+          389
+        ],
+        "Q_sem": 3,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          359,
+          54
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          85,
+          21
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          218,
+          177
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          500,
+          201
+        ],
+        "Q_sem": 6,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          418,
+          364
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          491,
+          454
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          156,
+          506
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          437,
+          267
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          127,
+          152
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          158,
+          147
+        ],
+        "Q_sem": 4,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          329,
+          477
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          60,
+          268
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          177,
+          318
+        ],
+        "Q_sem": 6,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          469,
+          112
+        ],
+        "Q_sem": 3,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          23,
+          384
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          356,
+          23
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 6
+      },
+      {
+        "column_indices": [
+          318,
+          180
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          33,
+          459
+        ],
+        "Q_sem": 5,
+        "Q_uniform": 5
+      },
+      {
+        "column_indices": [
+          505,
+          94
+        ],
+        "Q_sem": 3,
+        "Q_uniform": 5
+      }
+    ],
+    "scope": "Exact semantic optima from all completions; at B=3 the proved ratio uses the B cap."
+  },
+  "sources": {
+    "scripts/check_semantic_margin.py": "8ac53504a688b390f515c145a3a40aa99b73cc8cc54a96f38f9cad59692aa4eb",
+    "pacd/codec.py": "4ad38b674df25d2a511ae75b264d0cd90e8df311976a162768f7cde39b5e3272",
+    "pacd/column_monotone.py": "ef5f2629669335c0ee702178ce7b3c63e80be0da5c3039dc13ee422d01e4bccf",
+    "pacd/ancestor_acquisition.py": "eb49f27ad69d166d0b66aa851619e88796b519b2a2ef00b9c73fe4bd08fbbb64",
+    "pacd/edge_formula.py": "3de613ab7ada88cc5509d421297de133aeebb7a9a28c67454566558312412e39",
+    "pacd/intervals.py": "5408a793a74ea680cdb1548bdd9f82a3202b96ec1411182863066befe621389c",
+    "pacd/skeleton.py": "4ffa07903ace0e9053deb54af78bf07ef6b66fe82ee7a8e472dfe025ad10149f",
+    "tests/support.py": "cc5f9eb14ae2a13e71ce32000763dee2423ab637079386846289c4dff324aa9d",
+    "tests/test_column_monotone.py": "b7dee2835061b7676d8a19299fdf6d53295c99451b209bee6c48344964632eee"
+  },
+  "scope": "Exact interval comparisons, encoded acquisition, and exhaustive small-matrix optima."
+}

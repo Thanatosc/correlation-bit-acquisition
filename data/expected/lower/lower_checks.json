@@ -1,0 +1,1166 @@
+{
+  "status": "passed",
+  "formula_checks": {
+    "parameter_cases": [
+      {
+        "k": 1,
+        "tau": "1/100"
+      },
+      {
+        "k": 1,
+        "tau": "1/10"
+      },
+      {
+        "k": 1,
+        "tau": "9/20"
+      },
+      {
+        "k": 1,
+        "tau": "1/2"
+      },
+      {
+        "k": 1,
+        "tau": "11/20"
+      },
+      {
+        "k": 1,
+        "tau": "99/100"
+      },
+      {
+        "k": 2,
+        "tau": "1/100"
+      },
+      {
+        "k": 2,
+        "tau": "1/10"
+      },
+      {
+        "k": 2,
+        "tau": "3/10"
+      },
+      {
+        "k": 2,
+        "tau": "1/3"
+      },
+      {
+        "k": 2,
+        "tau": "11/30"
+      },
+      {
+        "k": 2,
+        "tau": "1/2"
+      },
+      {
+        "k": 2,
+        "tau": "99/100"
+      },
+      {
+        "k": 3,
+        "tau": "1/100"
+      },
+      {
+        "k": 3,
+        "tau": "1/10"
+      },
+      {
+        "k": 3,
+        "tau": "9/40"
+      },
+      {
+        "k": 3,
+        "tau": "1/4"
+      },
+      {
+        "k": 3,
+        "tau": "11/40"
+      },
+      {
+        "k": 3,
+        "tau": "1/2"
+      },
+      {
+        "k": 3,
+        "tau": "99/100"
+      },
+      {
+        "k": 4,
+        "tau": "1/100"
+      },
+      {
+        "k": 4,
+        "tau": "1/10"
+      },
+      {
+        "k": 4,
+        "tau": "9/50"
+      },
+      {
+        "k": 4,
+        "tau": "1/5"
+      },
+      {
+        "k": 4,
+        "tau": "11/50"
+      },
+      {
+        "k": 4,
+        "tau": "1/2"
+      },
+      {
+        "k": 4,
+        "tau": "99/100"
+      },
+      {
+        "k": 5,
+        "tau": "1/100"
+      },
+      {
+        "k": 5,
+        "tau": "1/10"
+      },
+      {
+        "k": 5,
+        "tau": "3/20"
+      },
+      {
+        "k": 5,
+        "tau": "1/6"
+      },
+      {
+        "k": 5,
+        "tau": "11/60"
+      },
+      {
+        "k": 5,
+        "tau": "1/2"
+      },
+      {
+        "k": 5,
+        "tau": "99/100"
+      },
+      {
+        "k": 6,
+        "tau": "1/100"
+      },
+      {
+        "k": 6,
+        "tau": "1/10"
+      },
+      {
+        "k": 6,
+        "tau": "9/70"
+      },
+      {
+        "k": 6,
+        "tau": "1/7"
+      },
+      {
+        "k": 6,
+        "tau": "11/70"
+      },
+      {
+        "k": 6,
+        "tau": "1/2"
+      },
+      {
+        "k": 6,
+        "tau": "99/100"
+      },
+      {
+        "k": 7,
+        "tau": "1/100"
+      },
+      {
+        "k": 7,
+        "tau": "1/10"
+      },
+      {
+        "k": 7,
+        "tau": "9/80"
+      },
+      {
+        "k": 7,
+        "tau": "1/8"
+      },
+      {
+        "k": 7,
+        "tau": "11/80"
+      },
+      {
+        "k": 7,
+        "tau": "1/2"
+      },
+      {
+        "k": 7,
+        "tau": "99/100"
+      },
+      {
+        "k": 8,
+        "tau": "1/100"
+      },
+      {
+        "k": 8,
+        "tau": "1/10"
+      },
+      {
+        "k": 8,
+        "tau": "1/9"
+      },
+      {
+        "k": 8,
+        "tau": "11/90"
+      },
+      {
+        "k": 8,
+        "tau": "1/2"
+      },
+      {
+        "k": 8,
+        "tau": "99/100"
+      }
+    ],
+    "exact_formula_and_decision_checks": 1685
+  },
+  "integer_cases": [
+    {
+      "k": 1,
+      "tau": "1/10",
+      "m": 3,
+      "n": 32,
+      "B": 58,
+      "coarse_depth": 50,
+      "lambda0": "1359/2560000",
+      "condition_bound_Cm": "5120000/151",
+      "labelings_checked": 8,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 26,
+        "cost": 274,
+        "depths": [
+          58,
+          58,
+          58,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 87,
+        "cost": 598,
+        "depths": [
+          58,
+          58,
+          58,
+          50,
+          50,
+          58,
+          58,
+          58,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 1,
+      "tau": "9/20",
+      "m": 3,
+      "n": 32,
+      "B": 63,
+      "coarse_depth": 56,
+      "lambda0": "3399/2048000",
+      "condition_bound_Cm": "12288000/1133",
+      "labelings_checked": 8,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 26,
+        "cost": 301,
+        "depths": [
+          63,
+          63,
+          63,
+          56,
+          56
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 87,
+        "cost": 658,
+        "depths": [
+          63,
+          63,
+          63,
+          56,
+          56,
+          63,
+          63,
+          63,
+          56,
+          56,
+          56
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 1,
+      "tau": "1/2",
+      "m": 3,
+      "n": 32,
+      "B": 33,
+      "coarse_depth": 29,
+      "lambda0": "31/4096",
+      "condition_bound_Cm": "73728/31",
+      "labelings_checked": 8,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 20,
+        "cost": 157,
+        "depths": [
+          33,
+          33,
+          33,
+          29,
+          29
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 75,
+        "cost": 343,
+        "depths": [
+          33,
+          33,
+          33,
+          29,
+          29,
+          33,
+          33,
+          33,
+          29,
+          29,
+          29
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 1,
+      "tau": "11/20",
+      "m": 3,
+      "n": 32,
+      "B": 63,
+      "coarse_depth": 56,
+      "lambda0": "25191/4096000",
+      "condition_bound_Cm": "8192000/2799",
+      "labelings_checked": 8,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 20,
+        "cost": 301,
+        "depths": [
+          63,
+          63,
+          63,
+          56,
+          56
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 75,
+        "cost": 658,
+        "depths": [
+          63,
+          63,
+          63,
+          56,
+          56,
+          63,
+          63,
+          63,
+          56,
+          56,
+          56
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 1,
+      "tau": "9/10",
+      "m": 3,
+      "n": 32,
+      "B": 57,
+      "coarse_depth": 50,
+      "lambda0": "159/512000",
+      "condition_bound_Cm": "3072000/53",
+      "labelings_checked": 8,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 20,
+        "cost": 271,
+        "depths": [
+          57,
+          57,
+          57,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 75,
+        "cost": 592,
+        "depths": [
+          57,
+          57,
+          57,
+          50,
+          50,
+          57,
+          57,
+          57,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 2,
+      "tau": "1/10",
+      "m": 4,
+      "n": 32,
+      "B": 58,
+      "coarse_depth": 50,
+      "lambda0": "1359/2560000",
+      "condition_bound_Cm": "20480000/453",
+      "labelings_checked": 16,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 84,
+        "cost": 324,
+        "depths": [
+          58,
+          58,
+          58,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 216,
+        "cost": 698,
+        "depths": [
+          58,
+          58,
+          58,
+          50,
+          50,
+          50,
+          58,
+          58,
+          58,
+          50,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 2,
+      "tau": "3/10",
+      "m": 4,
+      "n": 32,
+      "B": 57,
+      "coarse_depth": 50,
+      "lambda0": "7497/2048000",
+      "condition_bound_Cm": "16384000/2499",
+      "labelings_checked": 16,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 84,
+        "cost": 321,
+        "depths": [
+          57,
+          57,
+          57,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 216,
+        "cost": 692,
+        "depths": [
+          57,
+          57,
+          57,
+          50,
+          50,
+          50,
+          57,
+          57,
+          57,
+          50,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 2,
+      "tau": "1/3",
+      "m": 4,
+      "n": 32,
+      "B": 47,
+      "coarse_depth": 46,
+      "lambda0": "23/5184",
+      "condition_bound_Cm": "124416/23",
+      "labelings_checked": 16,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 30,
+        "cost": 279,
+        "depths": [
+          47,
+          47,
+          47,
+          46,
+          46,
+          46
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 108,
+        "cost": 604,
+        "depths": [
+          47,
+          47,
+          47,
+          46,
+          46,
+          46,
+          47,
+          47,
+          47,
+          46,
+          46,
+          46,
+          46
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 2,
+      "tau": "11/30",
+      "m": 4,
+      "n": 32,
+      "B": 72,
+      "coarse_depth": 64,
+      "lambda0": "1059839/207360000",
+      "condition_bound_Cm": "4976640000/1059839",
+      "labelings_checked": 16,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 30,
+        "cost": 408,
+        "depths": [
+          72,
+          72,
+          72,
+          64,
+          64,
+          64
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 108,
+        "cost": 880,
+        "depths": [
+          72,
+          72,
+          72,
+          64,
+          64,
+          64,
+          72,
+          72,
+          72,
+          64,
+          64,
+          64,
+          64
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 2,
+      "tau": "9/10",
+      "m": 4,
+      "n": 32,
+      "B": 57,
+      "coarse_depth": 50,
+      "lambda0": "159/512000",
+      "condition_bound_Cm": "4096000/53",
+      "labelings_checked": 16,
+      "all_labels_enumerated": true,
+      "whole_block_certificate": {
+        "certified_atoms": 30,
+        "cost": 321,
+        "depths": [
+          57,
+          57,
+          57,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 108,
+        "cost": 692,
+        "depths": [
+          57,
+          57,
+          57,
+          50,
+          50,
+          50,
+          57,
+          57,
+          57,
+          50,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 3,
+      "tau": "1/10",
+      "m": 5,
+      "n": 64,
+      "B": 59,
+      "coarse_depth": 58,
+      "lambda0": "1359/2560000",
+      "condition_bound_Cm": "25600000/453",
+      "labelings_checked": 8,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 282,
+        "cost": 409,
+        "depths": [
+          59,
+          59,
+          59,
+          58,
+          58,
+          58,
+          58
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 627,
+        "cost": 876,
+        "depths": [
+          59,
+          59,
+          59,
+          58,
+          58,
+          58,
+          58,
+          59,
+          59,
+          59,
+          58,
+          58,
+          58,
+          58,
+          58
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 3,
+      "tau": "9/40",
+      "m": 5,
+      "n": 64,
+      "B": 71,
+      "coarse_depth": 62,
+      "lambda0": "1529199/655360000",
+      "condition_bound_Cm": "6553600000/509733",
+      "labelings_checked": 8,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 282,
+        "cost": 461,
+        "depths": [
+          71,
+          71,
+          71,
+          62,
+          62,
+          62,
+          62
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 627,
+        "cost": 984,
+        "depths": [
+          71,
+          71,
+          71,
+          62,
+          62,
+          62,
+          62,
+          71,
+          71,
+          71,
+          62,
+          62,
+          62,
+          62,
+          62
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 3,
+      "tau": "1/4",
+      "m": 5,
+      "n": 64,
+      "B": 60,
+      "coarse_depth": 59,
+      "lambda0": "183/65536",
+      "condition_bound_Cm": "655360/61",
+      "labelings_checked": 8,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 42,
+        "cost": 416,
+        "depths": [
+          60,
+          60,
+          60,
+          59,
+          59,
+          59,
+          59
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 147,
+        "cost": 891,
+        "depths": [
+          60,
+          60,
+          60,
+          59,
+          59,
+          59,
+          59,
+          60,
+          60,
+          60,
+          59,
+          59,
+          59,
+          59,
+          59
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 3,
+      "tau": "11/40",
+      "m": 5,
+      "n": 64,
+      "B": 71,
+      "coarse_depth": 62,
+      "lambda0": "2143999/655360000",
+      "condition_bound_Cm": "19660800000/2143999",
+      "labelings_checked": 8,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 42,
+        "cost": 461,
+        "depths": [
+          71,
+          71,
+          71,
+          62,
+          62,
+          62,
+          62
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 147,
+        "cost": 984,
+        "depths": [
+          71,
+          71,
+          71,
+          62,
+          62,
+          62,
+          62,
+          71,
+          71,
+          71,
+          62,
+          62,
+          62,
+          62,
+          62
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 3,
+      "tau": "9/10",
+      "m": 5,
+      "n": 64,
+      "B": 59,
+      "coarse_depth": 58,
+      "lambda0": "159/512000",
+      "condition_bound_Cm": "5120000/53",
+      "labelings_checked": 8,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 42,
+        "cost": 409,
+        "depths": [
+          59,
+          59,
+          59,
+          58,
+          58,
+          58,
+          58
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 147,
+        "cost": 876,
+        "depths": [
+          59,
+          59,
+          59,
+          58,
+          58,
+          58,
+          58,
+          59,
+          59,
+          59,
+          58,
+          58,
+          58,
+          58,
+          58
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 4,
+      "tau": "1/10",
+      "m": 6,
+      "n": 64,
+      "B": 67,
+      "coarse_depth": 66,
+      "lambda0": "1359/2560000",
+      "condition_bound_Cm": "10240000/151",
+      "labelings_checked": 9,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 881,
+        "cost": 531,
+        "depths": [
+          67,
+          67,
+          67,
+          66,
+          66,
+          66,
+          66,
+          66
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 1842,
+        "cost": 1128,
+        "depths": [
+          67,
+          67,
+          67,
+          66,
+          66,
+          66,
+          66,
+          66,
+          67,
+          67,
+          67,
+          66,
+          66,
+          66,
+          66,
+          66,
+          66
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 4,
+      "tau": "9/50",
+      "m": 6,
+      "n": 64,
+      "B": 81,
+      "coarse_depth": 71,
+      "lambda0": "2520639/1600000000",
+      "condition_bound_Cm": "6400000000/280071",
+      "labelings_checked": 9,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 881,
+        "cost": 598,
+        "depths": [
+          81,
+          81,
+          81,
+          71,
+          71,
+          71,
+          71,
+          71
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 1842,
+        "cost": 1267,
+        "depths": [
+          81,
+          81,
+          81,
+          71,
+          71,
+          71,
+          71,
+          71,
+          81,
+          81,
+          81,
+          71,
+          71,
+          71,
+          71,
+          71,
+          71
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 4,
+      "tau": "1/5",
+      "m": 6,
+      "n": 64,
+      "B": 76,
+      "coarse_depth": 75,
+      "lambda0": "19/10000",
+      "condition_bound_Cm": "360000/19",
+      "labelings_checked": 9,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 56,
+        "cost": 603,
+        "depths": [
+          76,
+          76,
+          76,
+          75,
+          75,
+          75,
+          75,
+          75
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 192,
+        "cost": 1281,
+        "depths": [
+          76,
+          76,
+          76,
+          75,
+          75,
+          75,
+          75,
+          75,
+          76,
+          76,
+          76,
+          75,
+          75,
+          75,
+          75,
+          75,
+          75
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 4,
+      "tau": "11/50",
+      "m": 6,
+      "n": 64,
+      "B": 80,
+      "coarse_depth": 71,
+      "lambda0": "3591159/1600000000",
+      "condition_bound_Cm": "19200000000/1197053",
+      "labelings_checked": 9,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 56,
+        "cost": 595,
+        "depths": [
+          80,
+          80,
+          80,
+          71,
+          71,
+          71,
+          71,
+          71
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 192,
+        "cost": 1261,
+        "depths": [
+          80,
+          80,
+          80,
+          71,
+          71,
+          71,
+          71,
+          71,
+          80,
+          80,
+          80,
+          71,
+          71,
+          71,
+          71,
+          71,
+          71
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    },
+    {
+      "k": 4,
+      "tau": "9/10",
+      "m": 6,
+      "n": 64,
+      "B": 75,
+      "coarse_depth": 74,
+      "lambda0": "159/512000",
+      "condition_bound_Cm": "6144000/53",
+      "labelings_checked": 9,
+      "all_labels_enumerated": false,
+      "whole_block_certificate": {
+        "certified_atoms": 56,
+        "cost": 595,
+        "depths": [
+          75,
+          75,
+          75,
+          74,
+          74,
+          74,
+          74,
+          74
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "direct_sum_certificate": {
+        "certified_atoms": 192,
+        "cost": 1264,
+        "depths": [
+          75,
+          75,
+          75,
+          74,
+          74,
+          74,
+          74,
+          74,
+          75,
+          75,
+          75,
+          74,
+          74,
+          74,
+          74,
+          74,
+          74
+        ],
+        "all_completions_covered_by_intervals": true
+      }
+    }
+  ],
+  "integer_labelings": 205,
+  "integer_target_det_schur_comparisons": 4440,
+  "whole_graph_interval_certificates": 40,
+  "certified_interval_atoms": 10100,
+  "scope": "Rational arithmetic and sound determinant interval certificates; mathematical prefix transport.",
+  "sources": {
+    "check_lower.py": "dc5662949d6405c741d99cb03641f8065fd9a0edc6becb83b60730eaacd76741",
+    "parameters.json": "d36dd2e9da99a1005d205e21486a8d9adf267db012ba973483f830fd834bbf38",
+    "check_extension.py": "68557241bce3fb9e086013aabe7f68f1d5b50a08452cb4863c8c43175e8d1a65"
+  }
+}

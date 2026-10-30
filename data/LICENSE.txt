@@ -1,0 +1,12 @@
+Copyright (c) 2026 Siyu Cai
+
+The generated inputs, certificates, and numerical results in this directory
+are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
+
+License terms: https://creativecommons.org/licenses/by/4.0/legalcode
+License summary: https://creativecommons.org/licenses/by/4.0/
+
+Attribute the dataset to Siyu Cai, identify this dataset and its version,
+provide a link to the license, and indicate if changes were made.
+No third-party observational dataset is included.

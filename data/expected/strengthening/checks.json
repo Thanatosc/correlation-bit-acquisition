@@ -1,0 +1,634 @@
+{
+  "status": "passed",
+  "symbolic_equalities": {
+    "spectral_slack": true,
+    "switch_zero_constant": true,
+    "switch_linear_coefficient": true,
+    "gap_comparison_polynomial": true,
+    "gap_actual_threshold_margin": true
+  },
+  "uniform_box_margins": [
+    {
+      "test": [
+        0,
+        1,
+        []
+      ],
+      "decision": "dependent",
+      "lo": 7669971,
+      "hi": 8078211
+    },
+    {
+      "test": [
+        0,
+        2,
+        []
+      ],
+      "decision": "dependent",
+      "lo": 26202771,
+      "hi": 26870211
+    },
+    {
+      "test": [
+        2,
+        3,
+        []
+      ],
+      "decision": "dependent",
+      "lo": 7162771,
+      "hi": 7561411
+    },
+    {
+      "test": [
+        0,
+        2,
+        [
+          1
+        ]
+      ],
+      "decision": "dependent",
+      "lo": 41778717995520,
+      "hi": 44438020416000
+    },
+    {
+      "test": [
+        0,
+        2,
+        [
+          3
+        ]
+      ],
+      "decision": "dependent",
+      "lo": 42368846572800,
+      "hi": 45036974234880
+    },
+    {
+      "test": [
+        2,
+        3,
+        [
+          0
+        ]
+      ],
+      "decision": "independent",
+      "lo": -1039004179200,
+      "hi": -120689683200
+    }
+  ],
+  "low_width_cases": [
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 14,
+      "pattern": "zeros",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 14,
+      "pattern": "singletons",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 14,
+      "pattern": "ones",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 16,
+      "pattern": "zeros",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 16,
+      "pattern": "singletons",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 16,
+      "pattern": "ones",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 32,
+      "pattern": "zeros",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 32,
+      "pattern": "singletons",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 32,
+      "pattern": "ones",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 64,
+      "pattern": "zeros",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 64,
+      "pattern": "singletons",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 1,
+      "groups": 1,
+      "remainder": 0,
+      "bits": 64,
+      "pattern": "ones",
+      "n": 64,
+      "d": 3,
+      "structural_tests": 5
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 14,
+      "pattern": "zeros",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 14,
+      "pattern": "singletons",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 14,
+      "pattern": "ones",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 16,
+      "pattern": "zeros",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 16,
+      "pattern": "singletons",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 16,
+      "pattern": "ones",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 32,
+      "pattern": "zeros",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 32,
+      "pattern": "singletons",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 32,
+      "pattern": "ones",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 64,
+      "pattern": "zeros",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 64,
+      "pattern": "singletons",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 2,
+      "groups": 2,
+      "remainder": 3,
+      "bits": 64,
+      "pattern": "ones",
+      "n": 256,
+      "d": 11,
+      "structural_tests": 71
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 14,
+      "pattern": "zeros",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 14,
+      "pattern": "singletons",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 14,
+      "pattern": "ones",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 16,
+      "pattern": "zeros",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 16,
+      "pattern": "singletons",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 16,
+      "pattern": "ones",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 32,
+      "pattern": "zeros",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 32,
+      "pattern": "singletons",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 32,
+      "pattern": "ones",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 64,
+      "pattern": "zeros",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 64,
+      "pattern": "singletons",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 4,
+      "groups": 3,
+      "remainder": 5,
+      "bits": 64,
+      "pattern": "ones",
+      "n": 256,
+      "d": 23,
+      "structural_tests": 349
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 14,
+      "pattern": "zeros",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 14,
+      "pattern": "singletons",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 14,
+      "pattern": "ones",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 16,
+      "pattern": "zeros",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 16,
+      "pattern": "singletons",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 16,
+      "pattern": "ones",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 32,
+      "pattern": "zeros",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 32,
+      "pattern": "singletons",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 32,
+      "pattern": "ones",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 64,
+      "pattern": "zeros",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 64,
+      "pattern": "singletons",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    },
+    {
+      "m": 8,
+      "groups": 2,
+      "remainder": 0,
+      "bits": 64,
+      "pattern": "ones",
+      "n": 128,
+      "d": 20,
+      "structural_tests": 446
+    }
+  ],
+  "gap_cases": [
+    {
+      "bits": 12,
+      "kappa": "2886145/2354691",
+      "semantic_upper": 20,
+      "H_lower": 16,
+      "visible_corner_certificate": "dependent"
+    },
+    {
+      "bits": 16,
+      "kappa": "738238465/603906051",
+      "semantic_upper": 20,
+      "H_lower": 24,
+      "visible_corner_certificate": "dependent"
+    },
+    {
+      "bits": 20,
+      "kappa": "188979216385/154617643011",
+      "semantic_upper": 20,
+      "H_lower": 32,
+      "visible_corner_certificate": "dependent"
+    },
+    {
+      "bits": 28,
+      "kappa": "12384899143041025/10133098859593731",
+      "semantic_upper": 20,
+      "H_lower": 48,
+      "visible_corner_certificate": "dependent"
+    },
+    {
+      "bits": 32,
+      "kappa": "3170534140353183745/2594073380533567491",
+      "semantic_upper": 20,
+      "H_lower": 56,
+      "visible_corner_certificate": "dependent"
+    },
+    {
+      "bits": 64,
+      "kappa": "58486031814536298419296725698403631105/47852207848256971403784467087169159171",
+      "semantic_upper": 20,
+      "H_lower": 120,
+      "visible_corner_certificate": "dependent"
+    },
+    {
+      "bits": 128,
+      "kappa": "19901765337663721088426263048368234162493455093732558483946381381004924289025/16283262548997589981439669766846737041483273930819648546652426317752044617731",
+      "semantic_upper": 20,
+      "H_lower": 248,
+      "visible_corner_certificate": "dependent"
+    },
+    {
+      "bits": 256,
+      "kappa": "2304466987958883876489285546566629803160516000414317611796237123139678192668963256693595467619576258499854655568210583730904973960827977699548229128945665/1885472990148177717127597265372697111676785818520805318742375828023373066728962277512371592459869277160775956161139672168560294135885596616708329620635651",
+      "semantic_upper": 20,
+      "H_lower": 504,
+      "visible_corner_certificate": "dependent"
+    }
+  ],
+  "counts": {
+    "symbolic_equalities": 5,
+    "margin_types": 6,
+    "low_width_cases": 48,
+    "gap_cases": 8
+  },
+  "sources": {
+    "pacd/intervals.py": "5408a793a74ea680cdb1548bdd9f82a3202b96ec1411182863066befe621389c",
+    "pacd/positive_correlation_corner.py": "785424452b09674a19f1118d1529b64129ea97fdf302a3c5b29af90a9ea1430b",
+    "pacd/skeleton.py": "4ffa07903ace0e9053deb54af78bf07ef6b66fe82ee7a8e472dfe025ad10149f",
+    "pacd/whole_column_or_direct_sum.py": "534a00886e3ed2ee2026cc48cd27b35e731d4484d7a211315147579715800239",
+    "pacd/whole_column_or_linear_kappa.py": "053b314a0d941eb6211dbb406000971781a87991613c7b532ce517cc32dcf74c",
+    "pacd/whole_column_or.py": "636e9fb6b96e76c6ca4d3513e2a957d70453647aec10d40227104a0d22026ab1"
+  },
+  "checker_sha256": "62a2f237159211cc8fe8302f3b392157a42d9ccaaa63edaf4eef9da3b4700d6b",
+  "scope": "Symbolic identities, interval margins, integer matrices, and corner certificates."
+}

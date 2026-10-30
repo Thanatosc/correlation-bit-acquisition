@@ -1,0 +1,546 @@
+{
+  "status": "passed",
+  "independent_determinant_schur_comparisons": 7378,
+  "exhaustive_small_box_worlds": 704,
+  "certified_small_box_edges": 6,
+  "promised_precision_interval_atoms": 700,
+  "coarse_column_instances": [
+    {
+      "tau": "1/100",
+      "k": 2,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 35
+    },
+    {
+      "tau": "1/100",
+      "k": 2,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 35
+    },
+    {
+      "tau": "1/100",
+      "k": 3,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 35
+    },
+    {
+      "tau": "1/100",
+      "k": 3,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 35
+    },
+    {
+      "tau": "1/100",
+      "k": 4,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 35
+    },
+    {
+      "tau": "1/100",
+      "k": 4,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 35
+    },
+    {
+      "tau": "1/10",
+      "k": 2,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 30
+    },
+    {
+      "tau": "1/10",
+      "k": 2,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 30
+    },
+    {
+      "tau": "1/10",
+      "k": 3,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 31
+    },
+    {
+      "tau": "1/10",
+      "k": 3,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 31
+    },
+    {
+      "tau": "1/10",
+      "k": 4,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 31
+    },
+    {
+      "tau": "1/10",
+      "k": 4,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 31
+    },
+    {
+      "tau": "1/2",
+      "k": 2,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 31
+    },
+    {
+      "tau": "1/2",
+      "k": 2,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 31
+    },
+    {
+      "tau": "1/2",
+      "k": 3,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 32
+    },
+    {
+      "tau": "1/2",
+      "k": 3,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 32
+    },
+    {
+      "tau": "1/2",
+      "k": 4,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 32
+    },
+    {
+      "tau": "1/2",
+      "k": 4,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 32
+    },
+    {
+      "tau": "9/10",
+      "k": 2,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 33
+    },
+    {
+      "tau": "9/10",
+      "k": 2,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 33
+    },
+    {
+      "tau": "9/10",
+      "k": 3,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 34
+    },
+    {
+      "tau": "9/10",
+      "k": 3,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 34
+    },
+    {
+      "tau": "9/10",
+      "k": 4,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 34
+    },
+    {
+      "tau": "9/10",
+      "k": 4,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 34
+    },
+    {
+      "tau": "99/100",
+      "k": 2,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 36
+    },
+    {
+      "tau": "99/100",
+      "k": 2,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 36
+    },
+    {
+      "tau": "99/100",
+      "k": 3,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 37
+    },
+    {
+      "tau": "99/100",
+      "k": 3,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 37
+    },
+    {
+      "tau": "99/100",
+      "k": 4,
+      "ill_conditioned": false,
+      "n": 8,
+      "B": 38
+    },
+    {
+      "tau": "99/100",
+      "k": 4,
+      "ill_conditioned": true,
+      "n": 8,
+      "B": 38
+    }
+  ],
+  "uniform_traces": [
+    {
+      "k": 1,
+      "B": 8,
+      "n": 4,
+      "d": 3,
+      "depth": 8,
+      "queries": 24,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    },
+    {
+      "k": 1,
+      "B": 24,
+      "n": 4,
+      "d": 3,
+      "depth": 11,
+      "queries": 33,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    },
+    {
+      "k": 1,
+      "B": 80,
+      "n": 4,
+      "d": 3,
+      "depth": 11,
+      "queries": 33,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    },
+    {
+      "k": 2,
+      "B": 8,
+      "n": 8,
+      "d": 4,
+      "depth": 8,
+      "queries": 32,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    },
+    {
+      "k": 2,
+      "B": 24,
+      "n": 8,
+      "d": 4,
+      "depth": 13,
+      "queries": 52,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    },
+    {
+      "k": 2,
+      "B": 80,
+      "n": 8,
+      "d": 4,
+      "depth": 13,
+      "queries": 52,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    },
+    {
+      "k": 3,
+      "B": 8,
+      "n": 8,
+      "d": 5,
+      "depth": 8,
+      "queries": 40,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    },
+    {
+      "k": 3,
+      "B": 24,
+      "n": 8,
+      "d": 5,
+      "depth": 14,
+      "queries": 70,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    },
+    {
+      "k": 3,
+      "B": 80,
+      "n": 8,
+      "d": 5,
+      "depth": 14,
+      "queries": 70,
+      "graph": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "transport": "mathematical prefixes; no file codec"
+    }
+  ],
+  "order_two_example": {
+    "covariance": [
+      [
+        3,
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        3,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    "k1": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "k2": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ]
+  },
+  "net_bound_positive_polynomial_coefficients": [
+    62,
+    116,
+    60
+  ],
+  "limitations": [
+    "Finite checks do not prove the subspace-net statement.",
+    "This suite checks upper-bound constructions and interval decisions.",
+    "Uniform traces do not compute exact optimal certificate costs.",
+    "k is fixed for the polynomial-time implementation claim."
+  ],
+  "sources": {
+    "check_extension.py": "68557241bce3fb9e086013aabe7f68f1d5b50a08452cb4863c8c43175e8d1a65"
+  }
+}

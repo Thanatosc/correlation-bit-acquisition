@@ -1,0 +1,180 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "k": 2,
+      "tau": "1/10",
+      "old_m": 4,
+      "m": 7,
+      "B": 90,
+      "added_bit_planes": 32,
+      "unchanged_coarse_depth": 50,
+      "n": 64,
+      "whole_graph_certificate": {
+        "certified_atoms": 639,
+        "cost": 570,
+        "depths": [
+          90,
+          90,
+          90,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "outer_walsh_gram_exact": true
+    },
+    {
+      "k": 2,
+      "tau": "1/3",
+      "old_m": 4,
+      "m": 7,
+      "B": 79,
+      "added_bit_planes": 32,
+      "unchanged_coarse_depth": 46,
+      "n": 64,
+      "whole_graph_certificate": {
+        "certified_atoms": 72,
+        "cost": 513,
+        "depths": [
+          79,
+          79,
+          79,
+          46,
+          46,
+          46,
+          46,
+          46,
+          46
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "outer_walsh_gram_exact": true
+    },
+    {
+      "k": 3,
+      "tau": "1/10",
+      "old_m": 5,
+      "m": 8,
+      "B": 91,
+      "added_bit_planes": 32,
+      "unchanged_coarse_depth": 58,
+      "n": 64,
+      "whole_graph_certificate": {
+        "certified_atoms": 2638,
+        "cost": 679,
+        "depths": [
+          91,
+          91,
+          91,
+          58,
+          58,
+          58,
+          58,
+          58,
+          58,
+          58
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "outer_walsh_gram_exact": true
+    },
+    {
+      "k": 3,
+      "tau": "1/4",
+      "old_m": 5,
+      "m": 8,
+      "B": 92,
+      "added_bit_planes": 32,
+      "unchanged_coarse_depth": 59,
+      "n": 64,
+      "whole_graph_certificate": {
+        "certified_atoms": 90,
+        "cost": 689,
+        "depths": [
+          92,
+          92,
+          92,
+          59,
+          59,
+          59,
+          59,
+          59,
+          59,
+          59
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "outer_walsh_gram_exact": true
+    },
+    {
+      "k": 4,
+      "tau": "1/10",
+      "old_m": 6,
+      "m": 9,
+      "B": 99,
+      "added_bit_planes": 32,
+      "unchanged_coarse_depth": 66,
+      "n": 64,
+      "whole_graph_certificate": {
+        "certified_atoms": 9254,
+        "cost": 825,
+        "depths": [
+          99,
+          99,
+          99,
+          66,
+          66,
+          66,
+          66,
+          66,
+          66,
+          66,
+          66
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "outer_walsh_gram_exact": true
+    },
+    {
+      "k": 4,
+      "tau": "1/5",
+      "old_m": 6,
+      "m": 9,
+      "B": 108,
+      "added_bit_planes": 32,
+      "unchanged_coarse_depth": 75,
+      "n": 64,
+      "whole_graph_certificate": {
+        "certified_atoms": 110,
+        "cost": 924,
+        "depths": [
+          108,
+          108,
+          108,
+          75,
+          75,
+          75,
+          75,
+          75,
+          75,
+          75,
+          75
+        ],
+        "all_completions_covered_by_intervals": true
+      },
+      "outer_walsh_gram_exact": true
+    }
+  ],
+  "matrices": 12,
+  "scope": "Fixed coefficient records, coarse depths, and exact direct-sum Gram validation.",
+  "sources": {
+    "check_growth.py": "e366b7e95664132f18cadfa368b1a495770efdddefb127522e12d169ebb481ab",
+    "check_lower.py": "dc5662949d6405c741d99cb03641f8065fd9a0edc6becb83b60730eaacd76741",
+    "higher_order_parameters.json": "d36dd2e9da99a1005d205e21486a8d9adf267db012ba973483f830fd834bbf38"
+  }
+}

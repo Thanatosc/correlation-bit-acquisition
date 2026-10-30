@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "part": "software",
+  "version": "1.0.0",
+  "files": {
+    ".gitattributes": {
+      "size": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    ".gitignore": {
+      "size": 51,
+      "sha256": "bb83495a4651e09796cecc4f97f7747ec338a6b09e07f4c61946ebe419d87f3d"
+    },
+    "check_strengthening.py": {
+      "size": 8441,
+      "sha256": "62a2f237159211cc8fe8302f3b392157a42d9ccaaa63edaf4eef9da3b4700d6b"
+    },
+    "CITATION.cff": {
+      "size": 553,
+      "sha256": "90bcd3e4bfa929d1ff6fd21a875ce285f4e532d21cb42b63806bdd9647c6e09c"
+    },
+    "LICENSE": {
+      "size": 1289,
+      "sha256": "e1d60d37854871377eded741ee7abf18d6312c97827c635015d684e8c0c308d5"
+    },
+    "pacd/__init__.py": {
+      "size": 31,
+      "sha256": "5be230fa13a76b43315ce684e1e849c7104db7aa30af69f7d91144b4b665e2d3"
+    },
+    "pacd/ancestor_acquisition.py": {
+      "size": 7356,
+      "sha256": "eb49f27ad69d166d0b66aa851619e88796b519b2a2ef00b9c73fe4bd08fbbb64"
+    },
+    "pacd/calibrated_witness.py": {
+      "size": 7114,
+      "sha256": "3cd576ac272f8f4df7d3010e22a0b1e9796ce197467acec5d3b835777c148a57"
+    },
+    "pacd/codec.py": {
+      "size": 5649,
+      "sha256": "4ad38b674df25d2a511ae75b264d0cd90e8df311976a162768f7cde39b5e3272"
+    },
+    "pacd/column_monotone.py": {
+      "size": 6368,
+      "sha256": "ef5f2629669335c0ee702178ce7b3c63e80be0da5c3039dc13ee422d01e4bccf"
+    },
+    "pacd/edge_formula.py": {
+      "size": 2460,
+      "sha256": "3de613ab7ada88cc5509d421297de133aeebb7a9a28c67454566558312412e39"
+    },
+    "pacd/formula_witness.py": {
+      "size": 6165,
+      "sha256": "a8d0ecf492fd26fbfcc9af32b64a601cae1fb522b0d9d02793ed4167e3afeeda"
+    },
+    "pacd/hardness_any_fixed_threshold.py": {
+      "size": 3678,
+      "sha256": "957980ea80eab5d003826338ceb222ed8eeddb0d088029c0f798198a6ee948e8"
+    },
+    "pacd/hardness_fixed_threshold.py": {
+      "size": 391,
+      "sha256": "c19d05f836786d0fc976fa409bf7053ec6a229343f8f030bb1a4c1b2448f3699"
+    },
+    "pacd/intervals.py": {
+      "size": 4335,
+      "sha256": "5408a793a74ea680cdb1548bdd9f82a3202b96ec1411182863066befe621389c"
+    },
+    "pacd/positive_correlation_corner.py": {
+      "size": 2487,
+      "sha256": "785424452b09674a19f1118d1529b64129ea97fdf302a3c5b29af90a9ea1430b"
+    },
+    "pacd/residual.py": {
+      "size": 2369,
+      "sha256": "31f13f237b1969bdc69f7a3168c77f94076feff68a9825f93192f2dd6cb56205"
+    },
+    "pacd/semantic_acquisition.py": {
+      "size": 4325,
+      "sha256": "57fc7d21f572095df45a7a2be7b095e102ad93f3db7f48c925ba8bae0a6c635f"
+    },
+    "pacd/semantic_moments.py": {
+      "size": 9208,
+      "sha256": "248ce7d8f3f2d6e6181a7800451cf91d9cf1f0ae718bfa8500fa5ca630ca4904"
+    },
+    "pacd/skeleton.py": {
+      "size": 1565,
+      "sha256": "4ffa07903ace0e9053deb54af78bf07ef6b66fe82ee7a8e472dfe025ad10149f"
+    },
+    "pacd/whole_column_or.py": {
+      "size": 4868,
+      "sha256": "636e9fb6b96e76c6ca4d3513e2a957d70453647aec10d40227104a0d22026ab1"
+    },
+    "pacd/whole_column_or_direct_sum.py": {
+      "size": 4601,
+      "sha256": "534a00886e3ed2ee2026cc48cd27b35e731d4484d7a211315147579715800239"
+    },
+    "pacd/whole_column_or_linear_kappa.py": {
+      "size": 2698,
+      "sha256": "053b314a0d941eb6211dbb406000971781a87991613c7b532ce517cc32dcf74c"
+    },
+    "pacd/whole_column_stopping_hardness.py": {
+      "size": 5427,
+      "sha256": "0c5bdb9c8c6bcca3d73e55d3e4943c434740f7b7d4a42cb450de2a9770f9d5c1"
+    },
+    "README.md": {
+      "size": 4916,
+      "sha256": "a36e4038b762aa6d4e5d2363a5dd86094fd51751eed68545685a556b349f8d4b"
+    },
+    "requirements.txt": {
+      "size": 29,
+      "sha256": "3258ce0215a65533c7edf2e4e7122e2e5615db367234098bb2a55d38348140a2"
+    },
+    "run_checks.py": {
+      "size": 4200,
+      "sha256": "d2e990559242cf5b0c2069a5f618a369d61b3844b36da6e44ec8e957ef238f8a"
+    },
+    "scripts/check_extension.py": {
+      "size": 14100,
+      "sha256": "68557241bce3fb9e086013aabe7f68f1d5b50a08452cb4863c8c43175e8d1a65"
+    },
+    "scripts/check_growth.py": {
+      "size": 3062,
+      "sha256": "e366b7e95664132f18cadfa368b1a495770efdddefb127522e12d169ebb481ab"
+    },
+    "scripts/check_lower.py": {
+      "size": 12272,
+      "sha256": "dc5662949d6405c741d99cb03641f8065fd9a0edc6becb83b60730eaacd76741"
+    },
+    "scripts/check_semantic_margin.py": {
+      "size": 10875,
+      "sha256": "8ac53504a688b390f515c145a3a40aa99b73cc8cc54a96f38f9cad59692aa4eb"
+    },
+    "scripts/check_semantic_moment_oracle.py": {
+      "size": 6533,
+      "sha256": "66461070ab6c020c151abf3195949a0bb6e58026fa756a4946132c85513ec69e"
+    },
+    "scripts/check_whole_column_stopping_hardness.py": {
+      "size": 8813,
+      "sha256": "53b9135622b53b297cd85d5609dde6a614a08b883c9c3e1433ad205ef9e5e267"
+    },
+    "tests/support.py": {
+      "size": 1493,
+      "sha256": "cc5f9eb14ae2a13e71ce32000763dee2423ab637079386846289c4dff324aa9d"
+    },
+    "tests/test_column_monotone.py": {
+      "size": 3222,
+      "sha256": "b7dee2835061b7676d8a19299fdf6d53295c99451b209bee6c48344964632eee"
+    },
+    "tests/test_semantic_acquisition.py": {
+      "size": 3251,
+      "sha256": "acfc2a7892a386577aa7d77793c618ee42842dda54e4f1dab99dc11992cbde31"
+    },
+    "tests/test_semantic_moments.py": {
+      "size": 4911,
+      "sha256": "1376bf9a1bc7078e82b2d54e4233d1857201d1bd55b7ee72aeeaa0f7b0747d6b"
+    },
+    "verify_manifest.py": {
+      "size": 1397,
+      "sha256": "7fda085411a2d3408a02d0ea776bd126ef14654db9532eeb37e668c719238505"
+    }
+  }
+}
